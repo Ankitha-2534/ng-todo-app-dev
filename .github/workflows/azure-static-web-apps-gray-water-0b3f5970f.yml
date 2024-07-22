@@ -22,7 +22,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20.11.1
+          node-version: '20.11.x'
       - name: Change to app directory and install dependencies
         run: |
           cd SPA
