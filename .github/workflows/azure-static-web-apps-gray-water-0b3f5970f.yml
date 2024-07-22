@@ -23,9 +23,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.13.0
-      - name: Change to app directory
-        run: cd SPA
-      - name: Install dependencies
+      - name: Change to app directory and install dependencies
         run: |
           cd SPA
           npm install
