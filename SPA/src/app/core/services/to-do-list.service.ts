@@ -12,7 +12,7 @@ import { LoginRequest } from '../models/login-request';
 })
 export class ToDoListService {
 
-  private baseApiEndPoint = "https://localhost:7060/api"
+  private baseApiEndPoint = "https://app-todoapp-prod-003.azurewebsites.net/api"
 
   dataUpdated : any=[];
 
